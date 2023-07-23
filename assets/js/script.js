@@ -67,6 +67,11 @@
 		$('.mobile-menu .menu-backdrop,.mobile-menu .close-btn, .theme-btn-one-mob').on('click', function() {
 			$('body').removeClass('mobile-menu-visible');
 		});
+
+		$('.mobile-menu ul li').on('click', function() {
+			// Remova a classe 'mobile-menu-visible' do <body>
+			$('body').removeClass('mobile-menu-visible');
+		  });
 	}
 
 

@@ -1379,7 +1379,7 @@ img {
   height: 100%;
   max-height: 100%;
   overflow-y: auto;
-  background: #061a3a;
+  background: #deb887;
   padding: 0px 0px;
   z-index: 5;
   opacity: 0;
@@ -6403,7 +6403,7 @@ h4 a:hover{
   max-width: 400px;
 }
 
-.image_block_6 .image-box .image-1:before{
+/* .image_block_6 .image-box .image-1:before{
   position: absolute;
   top: 0;
   left: -75%;
@@ -6434,7 +6434,7 @@ h4 a:hover{
   100% {
     left: 125%;
   }
-}
+} */
 
 .image_block_6 .image-box .image-1 img{
   border-radius: 20px;
