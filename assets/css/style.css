@@ -1953,6 +1953,39 @@ div#mCSB_1_container{
   /* background: #e9f8f8; */
   /* background-color: burlywood; */
 }
+.image-container {
+  width: 300px; 
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%; 
+  height: auto;
+}
+.image-container-desk {
+  width: 483px;
+  overflow: hidden;
+}
+.image-container-desk img {
+  width: 100%; 
+  height: auto;
+}
+.image-container-serv {
+  width: 383px;
+  overflow: hidden;
+  z-index: 1;
+}
+.image-container-serv1 {
+  width: 226px;
+  overflow: hidden;
+  z-index: 1;
+  margin: -20px 0 -90px 0;
+}
+.image-container-serv img {
+  width: 100%; 
+  height: auto;
+  z-index: 1;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* Proporção 16:9 (dividindo a altura pelo largura) */
